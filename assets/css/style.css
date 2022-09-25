@@ -9,38 +9,35 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     border-radius:10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-    height: 300px;
+    height: 200px;
     background-color: blue;
     color: white;
 }
 
-header img {
-    position: relative;
-    bottom:45px;
-    left: 30px;
+aside img {
     padding-bottom: 10px;
-    max-width: 150px;
-    margin-left: 0;
-    padding: 0;
+    max-width: 210px;
 
   }
 
 header h1 {
-    display: flex;
+    position: relative;
+    top: 100px;
     font-size: 50px;
-
+    text-decoration: overline underline;
 }
 
 header nav {
     display: flex;
+    align-self: flex-end;
     position: relative;
     top: 70px;
-    flex-flow: row wrap;
-    justify-content: flex-end;
- 
+    width: fit-content;
 }
 
 header ul li {
@@ -60,35 +57,61 @@ main {
     display: flex;
 }
 
+section {
+    display:flex
+}
+
 content {
+    /* border-style: solid; */
     margin: auto;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
+    flex-basis: 0;
     justify-items: center;
-    width: 75%;
+    max-width: 75%;
 }
 
 content div {
-    display:flex;
+    /* border-style: solid; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     border-radius: 14px;
     width: 500px;
     height: 500px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-content div p {
-    font-size: 20px;
+content a {
+    color: black;
+    
 }
 
 aside {
+    border-left:10px;
+    border-left-style: solid;
     padding:30px;
     height: auto;
     width: 20%;
     margin-right: 20px;
     float: right;
     clear: both;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+}
+
+aside h4 {
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+aside p {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer {
@@ -99,28 +122,33 @@ footer {
     font-size: 20px;
 }
 
+footer h4, a {
+    text-decoration: underline;
+}
+
 #placeholderApp1 {
-    flex: 0 0 120%;
-    justify-content: center;
+    width: 700px;
+    height: 700px;
     background-image: url("/assets/images/placeholder-image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
+}
+
+#placeholderApp1 a {
+    position: relative;
+    top: 30px;
 }
 
 #placeholderApp2 {
     background-image: url("/assets/images/placeholder-image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 #placeholderApp3 {
     background-image: url("/assets/images/placeholder-image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 
 #placeholderApp4 {
     background-image: url("/assets/images/placeholder-image.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
