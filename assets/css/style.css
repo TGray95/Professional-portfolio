@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:darkcyan;
+    background-image: linear-gradient(darkslateblue, cornflowerblue);
 }
 
 header {
@@ -13,41 +13,40 @@ header {
     flex-direction: column;
     border-radius:10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
     height: 200px;
-    background-color: blue;
-    color: white;
+    background-color: darkslategrey;
+    color: lightblue;
+    border-bottom: solid;
 }
-
-aside img {
-    padding-bottom: 10px;
-    max-width: 210px;
-
-  }
 
 header h1 {
     position: relative;
-    top: 100px;
-    font-size: 50px;
+    top: 75px;
+    margin-left: .5in;
+    font-size: 60px;
     text-decoration: overline underline;
 }
 
 header nav {
-    display: flex;
     align-self: flex-end;
     position: relative;
-    top: 70px;
+    top: 60px;
     width: fit-content;
+    background-color: lightblue;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 20px;
+    font: 1em sans-serif;
+    text-decoration: none;
 }
 
 header ul li {
     display:inline-block;
     font-size: 48px;
     margin-right: 100px;
-    text-decoration: underline;
 }
 a {
-    color:white;
+    color:black;
     text-decoration: none;
 }
 
@@ -87,12 +86,12 @@ content div {
     background-repeat: no-repeat;
 }
 
-content a {
-    color: black;
-    
+h3 {
+    font-size: 30px;
 }
 
 aside {
+    background-color: darkslategrey;
     border-left:10px;
     border-left-style: solid;
     padding:30px;
@@ -101,13 +100,19 @@ aside {
     margin-right: 20px;
     float: right;
     clear: both;
-    /* background-color: aliceblue; */
+    color:lightblue;
 }
 
 aside h4 {
     font-size: 48px;
     text-decoration: underline;
 }
+
+aside img {
+    padding-bottom: 10px;
+    max-width: 210px;
+
+  }
 
 aside p {
     font-size: 30px;
@@ -122,8 +127,14 @@ footer {
     font-size: 20px;
 }
 
-footer h4, a {
+footer h4 {
     text-decoration: underline;
+    font-size: 30px;
+}
+
+footer a {
+    text-decoration: underline;
+
 }
 
 #placeholderApp1 {
@@ -131,11 +142,6 @@ footer h4, a {
     height: 700px;
     background-image: url("/assets/images/placeholder-image.png");
 
-}
-
-#placeholderApp1 a {
-    position: relative;
-    top: 30px;
 }
 
 #placeholderApp2 {
