@@ -1,4 +1,4 @@
-# Professional-portfolio
+# Professional Portfolio
 ## Description
 
 This website is intended to showcase current and future web applications made by the author, and provide quick and convenient access to both the deployed application and contact information.
