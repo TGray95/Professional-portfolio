@@ -139,21 +139,21 @@ footer a {
 #placeholderApp1 {
     width: 700px;
     height: 700px;
-    background-image: url("/assets/images/placeholder-image.png");
+    background-image: url("../assets/images/placeholder-image.png");
 
 }
 
 #placeholderApp2 {
-    background-image: url("/assets/images/placeholder-image.png");
+    background-image: url("../assets/images/placeholder-image.png");
 
 }
 
 #placeholderApp3 {
-    background-image: url("/assets/images/placeholder-image.png");
+    background-image: url("../assets/images/placeholder-image.png");
 
 }
 
 #placeholderApp4 {
-    background-image: url("/assets/images/placeholder-image.png");
+    background-image: url("../assets/images/placeholder-image.png");
 
 }
